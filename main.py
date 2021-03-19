@@ -17,10 +17,10 @@ browser.implicitly_wait(10)     #add delay for Chromedriver to be fully function
 
 username = browser.find_element_by_name("username")
 username.clear()
-username.send_keys(f"yourname")
+username.send_keys(f"{yourname}")
 password = browser.find_element_by_name("password")
 password.clear()
-password.send_keys(f"yourpassword")
+password.send_keys(f"{yourpassword}")
 submit = browser.find_element_by_tag_name('form')
 submit.submit()
 instagram = browser.find_element_by_class_name("s4Iyt")
