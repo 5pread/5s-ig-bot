@@ -2,4 +2,4 @@
 
 
 
-automated instagram image posting bot with selenium
+automated instagram image posting bot with selenium and instabot modules
