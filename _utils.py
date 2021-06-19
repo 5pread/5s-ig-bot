@@ -28,7 +28,7 @@ def UploadPhoto(text_caption):
         pass
         clean_up()
         bot = Bot()
-        bot.login(username="aipostingmemeslikeaboss", password="aiposting")
+        bot.login(username="aipostingmemeslikeaboss", password="bruhmomentonumerodos")
         bot.upload_photo(images_path + f"/{file}", caption=f'{text_caption}')
 
 def clean_imagesdir():
